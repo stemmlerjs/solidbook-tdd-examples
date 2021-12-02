@@ -31,7 +31,7 @@ Let's begin. Make sure you've read [Part III - Phronesis](https://wiki.solidbook
 
 Classic TDD, created originally by Kent Beck, is also known as the Detroit/Chicago school of thought for TDD. What makes Classic TDD _classic_ is the absence of mocking (found in the _Mockist_/London-style form of TDD). In Classic TDD, we verify our classes or functions by testing them exactly as they occur without mocking out dependencies. This means that if some class we wish to test relied on the use of a database, we'd be testing that class with the database connection as well. While this gives you a greater level of confidence that your code is working correctly, for code involving [infrastructure code](https://khalilstemmler.com/articles/test-driven-development/how-to-test-code-coupled-to-apis-or-databases/#Core-code-and-infrastructure-code), it makes test setup and teardown harder (specificlaly with respect to unit tests) and it makes them run slower as well slower. 
 
-To start our TDD journey, we focus on mastering the Classic TDD school of thought solving problems that exclusively involve [core code](https://khalilstemmler.com/articles/test-driven-development/how-to-test-code-coupled-to-apis-or-databases/#Core-code-and-infrastructure-code) (no infrastructure). 
+To start our TDD journey, we focus on mastering the Classic TDD school of thought. We are solely focused on solving problems that exclusively involve [core code](https://khalilstemmler.com/articles/test-driven-development/how-to-test-code-coupled-to-apis-or-databases/#Core-code-and-infrastructure-code) (no infrastructure). 
 
 ### Part IV: Test-Driven Development Basics
 
@@ -50,4 +50,6 @@ To start our TDD journey, we focus on mastering the Classic TDD school of though
 - [Recently Used List](https://github.com/stemmlerjs/solidbook-tdd-examples/tree/main/examples/classic/tdd-recently-used-list)
 - [Tennis](https://github.com/stemmlerjs/solidbook-tdd-examples/tree/main/examples/classic/tdd-tennis)
 
+## Mockist TDD examples/katas
 
+> Coming soon
