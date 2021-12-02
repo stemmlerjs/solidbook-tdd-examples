@@ -25,7 +25,6 @@ describe('game', () => {
   test("should know that it's O's turn to go after X", () => {
     game.chooseMark({ row: 0, column: 0 })
     let turn = game.getCurrentTurn();
-
     expect(turn).toBe('O')
   });
 

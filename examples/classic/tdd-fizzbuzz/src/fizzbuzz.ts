@@ -1,5 +1,4 @@
 
-
 const isWithinRange = (number: number) => {
   if (number < 1 || number > 100) {
     return false;

@@ -1,7 +1,12 @@
 
+export type StatsResult = {
+  min: number;
+}
+
+
 export class Calculator {
-  
-  calculateMin (numbers: number[]): number {
+
+  private getMinValue (numbers: number[]): number {
     let minValue;
 
     if (numbers.length == 0) {
@@ -16,5 +21,11 @@ export class Calculator {
     })
 
     return minValue;
+  }
+  
+  processStats (numbers: number[]): StatsResult {
+    return {
+      min: this.getMinValue(numbers)
+    }
   }
 }
