@@ -25,7 +25,7 @@ Finally, the path to master involves one step:
 
 Let's begin. Make sure you've read [Part III - Phronesis](https://wiki.solidbook.io/Part-III-Phronesis-60b174f15da34fdcb5bc8a099436a9bb) first.
 
-## Classic TDD
+## Classic TDD examples/katas
 
 Classic TDD, created originally by Kent Beck, is also known as the Detroit/Chicago school of thought for TDD. What makes Classic TDD _classic_ is the absence of mocking (found in the _Mockist_/London-style form of TDD). In Classic TDD, we verify our classes or functions by testing them exactly as they occur without mocking out dependencies. This means that if some class we wish to test relied on the use of a database, we'd be testing that class with the database connection as well. While this gives you a greater level of confidence that your code is working correctly, for code involving [infrastructure code](https://khalilstemmler.com/articles/test-driven-development/how-to-test-code-coupled-to-apis-or-databases/#Core-code-and-infrastructure-code), it makes test setup and teardown harder (specificlaly with respect to unit tests) and it makes them run slower as well slower. 
 
