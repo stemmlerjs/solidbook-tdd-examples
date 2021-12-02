@@ -4,7 +4,9 @@
 
 ## About this (learning TDD)
 
-TDD is such an important technique, but it's one of the most challenging software design techniques to master. There's a lot of confusion, misdirection, and partial explanations. Many of us have tried TDD but gave up because it was too hard or felt like it took too much time. I believe that's a symptom of not fully grasping how TDD is to be used in the real world. In [Part III - Phronesis](https://wiki.solidbook.io/Part-III-Phronesis-60b174f15da34fdcb5bc8a099436a9bb), we start over. We start from scratch. Specifically, we:
+TDD is such an important technique, but it's one of the most challenging software design techniques to master. There's a lot of confusion, misdirection, and partial explanations. Many of us have tried TDD but gave up because it was too hard or felt like it took too much time. I believe that's a symptom of not fully grasping how TDD is to be used in the real world. 
+
+In [Part III - Phronesis](https://wiki.solidbook.io/Part-III-Phronesis-60b174f15da34fdcb5bc8a099436a9bb), we start over. We start from scratch. Specifically, we:
 
 1. Understand the nature of complexity and features
 2. Understand how to identify behavior in features
